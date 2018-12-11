@@ -1,0 +1,106 @@
+h1 {
+	color :#52251C;
+	font-size:50px;
+	font-family:Calibri;
+	text-align : center;
+}
+
+h2 {
+	color :#795344;
+	font-size:40px;
+	font-family:Calibri;
+	border-radius: 4px;
+	text-align : center;
+}
+
+h3 {
+	color :#9E8479;
+	font-size:35px;
+	font-family:Calibri;
+	border-bottom: 1px dotted black;
+	padding: 15px;
+	margin: 60px;
+	box-shadow: 6px 6px 9px black;
+	text-align : right;
+}
+
+h4 {
+	color :#B78178;
+	font-size:25px;
+	font-family:Calibri;
+	border-bottom: 1px dotted black;
+	box-shadow: 6px 6px 9px black;
+	padding:2px;
+	margin: 50px;
+	text-align : right;
+}
+
+p {
+	color :#570906;
+	font-size:20px;
+	font-family:Calibri;
+	text-align : center;
+}
+
+body {
+	line-height : 1.8px
+	letter-spacing: 1px;
+}
+
+body {
+	text-decoration : none;
+}
+
+ul {
+	color :#B9121B;
+	font-size:20px;
+	font-family:Calibri;
+	text-align: left;
+}
+
+body {
+	border-top: 4px solid black;
+	border-right: 5px dotted black;
+	border-bottom: 4px solid black;
+	border-left: 5px dotted black;
+	background-image:url(image/Fond.jpg);
+}
+
+
+.perfect-circle {
+  	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 9px black
+}
+
+span.souligne {text-decoration: underline;}
+
+.img {
+	max-width: 65px;
+	height: auto;
+}
+
+#smile {
+	max-width: 100px;
+	height: auto;
+	margin-top: 1px;
+	margin-bottom: 1px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
